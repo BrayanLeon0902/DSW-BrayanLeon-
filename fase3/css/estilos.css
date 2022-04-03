@@ -1,0 +1,79 @@
+header{
+    background-color: red;
+    display: flex;
+    font-family: 'BIZ UDPMincho', serif;
+    
+}
+
+nav{
+    background-color: aquamarine;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+article{
+    background-color: brown;
+    color: antiquewhite;
+    grid-column: 1/4;
+    padding: 23px;
+    font-family: 'BIZ UDGothic', sans-serif;
+}
+
+aside{
+    background-color: darkorange;
+    grid-column: 5/4;
+}
+
+footer{
+    background-color: seagreen;
+    color: blanchedalmond;
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-start; 
+}
+
+.menu{
+   
+    color:black;
+    background-color: aquamarine;
+    padding: 10px 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1000px;
+    margin: 30px auto;
+    font-family: 'BIZ UDPMincho', serif
+}
+
+.contenido-footer{
+    background-color: rgba(72, 219, 116, 0.932); 
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(20, 20, 20);
+ }
+ .contenido{
+    margin: 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .icono{
+    margin: 0 8px;
+ }
+
+ .autor {
+     font-size: 20px;
+     
+
+ }
+
+ .imagen_mia {
+     float:initial;
+    
+ }
