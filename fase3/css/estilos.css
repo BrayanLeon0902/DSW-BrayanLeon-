@@ -1,3 +1,12 @@
+.titulo_principal{
+    text-align: center;
+}
+
+.subtitulo {
+    text-align: center;
+    display: contents;
+}
+
 header{
     background-color: red;
     display: flex;
@@ -77,3 +86,31 @@ footer{
      float:initial;
     
  }
+
+ .temas {
+     font-size: 25px;
+     text-align: center;
+     
+
+ }
+
+.parrafos {
+
+    font-size: 18px;
+
+
+}
+
+.escribiendo {
+    float:right;
+}
+
+.mujer{
+    float: right;
+}
+
+iframe {
+    width: 80%;
+    height: 150vh;
+
+}
