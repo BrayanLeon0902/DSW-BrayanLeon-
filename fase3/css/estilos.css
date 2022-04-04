@@ -8,14 +8,14 @@
 }
 
 header{
-    background-color: red;
+    background-color: #F7F7F7;
     display: flex;
     font-family: 'BIZ UDPMincho', serif;
     
 }
 
 nav{
-    background-color: aquamarine;
+    background-color: #FFB72B;
 }
 
 section{
@@ -24,21 +24,21 @@ section{
 }
 
 article{
-    background-color: brown;
-    color: antiquewhite;
+    background-color: #FFE61B;
+    color:black;
     grid-column: 1/4;
     padding: 23px;
     font-family: 'BIZ UDGothic', sans-serif;
 }
 
 aside{
-    background-color: darkorange;
+    background-color: #B5FE83;
     grid-column: 5/4;
 }
 
 footer{
-    background-color: seagreen;
-    color: blanchedalmond;
+    background-color: #FFB72B;
+    color:black;
     display:flex;
     justify-content: space-around;
     align-items: flex-start; 
@@ -47,7 +47,7 @@ footer{
 .menu{
    
     color:black;
-    background-color: aquamarine;
+    background-color: #FFB72B;
     padding: 10px 14px;
     display: flex;
     flex-direction: row;
@@ -58,7 +58,7 @@ footer{
 }
 
 .contenido-footer{
-    background-color: rgba(72, 219, 116, 0.932); 
+    background-color: #FFB72B; 
     width: 100%;
     height: 40px;
     display: flex;
